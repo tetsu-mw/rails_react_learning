@@ -1,7 +1,10 @@
+<%= react_component("Colorpicker") %>
+
 <% obj.each do |article| %>
   <div class="row">
     <div class="col-xs-8 col-xs-offset-2">
       <div class="well well-lg">
+      placeholder
           <%= react_component("Article", {
             title:        article.title, 
             path:         article_path(article),
